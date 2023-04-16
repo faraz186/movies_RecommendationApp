@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }
+  
+  label {
+    margin: 0 0.5rem;
+  }
+  
+  select {
+    margin: 0 0.5rem;
+  }
+  
+  button {
+    margin-left: 1rem;
+  }
+  
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+  }
+  
+  .movie {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 200px;
+  }
+  
+  .movie h2 {
+    font-size: 1.25rem;
+    margin: 0;
+  }
+  
+  .movie p {
+    font-size: 0.75rem;
+    margin: 0.25rem 0;
+  }
+  
